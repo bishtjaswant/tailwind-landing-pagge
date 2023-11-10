@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class=" bg-amber-50 overflow-hidden">
+    <div class=" min-h-screen px-4 py-3 flex flex-col  gap-16 md:px-10 md:py-7 lg:px-16 ">
+        <header class=" flex justify-between">
+            <div class="flex gap-2 items-center">
+                <img src="./Assets/Logo.svg" alt="logo">
+                <button type="button"
+                    class=" font-lato bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-2 py-2 rounded-full text-xs  font-semibold capitalize">hostter
+                    is hiring...</button>
+            </div>
+
+            <ul class="hidden lg:flex lg:gap-4 text-gray-500 lg:justify-between lg:items-center">
+                <li><a class=" font-lato capitalize" href="#">plans</a></li>
+                <li><a class=" font-lato capitalize" href="#">find domain</a></li>
+                <li><a class=" font-lato capitalize" href="#">why hosterr</a></li>
+            </ul>
+
+
+            <div class="hidden font-lato lg:flex lg:items-center gap-4">
+                <a href="" class=" text-gray-500">Join</a>
+                <button type="button"  class=" btn-primary capitalize">join Waitlist</button>
+            </div>
+
+
+            <div class="lg:hidden">
+                  <!-- ==================Start bar icon===================== --> 
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 5L20 5" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4 12L20 12" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4 19L20 19" stroke="#141B34" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                  <!-- =================End bar icon========================  --> 
+            </div>
+        </header>
+        
+        <main class="lg:flex">
+    
+            <div class="flex justify-center items-center lg:flex-1 lg:order-2 lg:justify-end">
+                <img src="./Assets/Blue Shape.svg" alt="" class=" h-64  -rotate-[20deg] md:h-72 lg:h-96">
+                <img src="./Assets/Pink Shape.svg" alt="" class="absolute h-64 -rotate-[30deg] md:h-72 lg:h-96">
+                <img src="./Assets/Purple Shape.svg" alt="" class="absolute h-64 -rotate-[40deg] md:h-72 lg:h-96">
+                <img src="./Assets/Hero Image (Model).png" alt="" class="absolute h-64 md:h-72 lg:h-96">
+            </div>
+
+            <div class="mt-16 space-y-1 lg:flex-1 lg:order-1">
+                <h1 class=" font-playFair text-4xl capitalize font-semibold mt-4">host your website within 5 minutes
+                </h1>
+                <p class=" font-lato text-slate-700 leading-tight mt-3">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. In magnam saepe, doloribus explicabo consectetur iure molestiae unde facilis vel
+                    harum id nam!</p>
+                <form action="" class="   mt-5  flex gap-2 flex-col    md:flex-row">
+                    <input type="email" name="" placeholder="enter your email" id=""
+                        class=" bg-white py-3 px-1 w-full placeholder:capitalize focus:outline-none md:w-72 ">
+                    <button type="submit" class="btn-primary "> Join
+                        Waitlist</button>
+                </form>
+
+                <div class="flex gap-2 mt-4">
+
+                    <img src="./Assets/Checkmark.svg" alt="">
+
+                    <div class="flex gap-1 text-gray-500 ">
+                        <span>No Span Ever</span>
+                        <span>Unsubscribe anytime.</span>
+                    </div>
+
+                </div>
+            </div>
+ 
+        </main>
+
+
+        <footer class="md:flex md:justify-between  md:items-center">
+            <ul class="flex items-center justify-between gap-2 font-lato">
+                <li><a href="#" class="capitalize text-slate-600">facebook</a></li>
+                <li><a href="#" class="capitalize text-slate-600">linkedin</a></li>
+                <li><a href="#" class="capitalize text-slate-600">githup</a></li>
+                <li><a href="#" class="capitalize text-slate-600">twitter</a></li>
+            </ul>
+            <div class="help flex gap-4  mt-5">
+                <img src="./Assets/Help Avatar.svg" alt="">
+                <div class="">
+                    <p class="font-playFair font-thin">have any question?</p>
+                    <p class="font-lato  font-medium  ">talk to a specialist</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
